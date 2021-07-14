@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import makeItBig from './features/index'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         {makeItBig('ishaq khan')}
         </p>
         <span>
           <span>Learn </span>
