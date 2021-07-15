@@ -11,7 +11,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
-         {makeItBig('ishaq khan')}
+         {makeItBig[0]('ishaq khan')}
+        </p>
+        <p>
+          {makeItBig[1].getState().value.toString() }
         </p>
         <span>
           <span>Learn </span>
